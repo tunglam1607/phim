@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#site-content {
+  /* background-image: url(../img/background@2x.jpg); */
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0 15px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* main- content */
+.main-content {
+  width: 1100px;
+  height: 950px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.container-2 {
+  width: 1090px;
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: teal; */
+  border-radius: 5px;
+  justify-content: space-around;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container-3 {
+  width: 1090px;
+  height: 250px;
+  /* background-color: indianred; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+
+img {
+  border-radius: 10px;
+}
+.brief {
+  width: 1100px;
+  height: 100px;
+  font-size: 23px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  font-weight: bolder;
+}
+.main-movie-4 {
+  margin-right: -10px;
+}
+
+/* For all pages */
+/* Header */
+header a {
+  color: white;
+}
+header {
+  background-color: #487eb0;
+  color: white;
+  height: 100px;
+}
+.search-box {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 20px;
+  border-radius: 40px;
+  background: white;
+  padding: 10px;
+  width: 400px;
+}
+.search-btn {
+  color: #273c75;
+  float: right;
+  width: 0px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 360px;
+}
+.site-title {
+  margin: auto;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin-top: 10px;
+}
+#branding {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+.main-navigation {
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 400px;
+  height: 30px;
+  float: right;
+  background: #487eb0;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+  background-color: #487eb0;
+  margin: 0;
+}
+.menu-item {
+  display: inline-block;
+  padding: 10px 0;
+  color: black;
+}
+/* footer */
+.footer a {
+  color: white;
+}
+.footer {
+  width: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  line-height: 50px;
+  background-color: #487eb0;
+}
+.team h4,
+.team span,
+.contact h4,
+.contact span {
+  color: whitesmoke;
+  text-align: center;
+}
+.team span,
+.contact span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team {
+  width: 20%;
+  position: relative;
+  left: 0;
+}
+.contact {
+  width: 20%;
+  position: absolute;
+  right: 0;
+}
+.fb {
+  padding: 5px;
+}
+
+/* Review Page */
+.main-content-1 {
+  width: 1100px;
+  height: 1100px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.main-content-1 i {
+  color: black;
+  font-size: 13px;
+  margin: -10px;
+}
+.main-content-2 i {
+  color: black;
+  font-size: 13px;
+  margin: -10px;
+}
+.description-2 {
+  width: 1000px;
+  height: 500px;
+}
+.member-1,
+.member-2,
+.member-3,
+.member-4 {
+  width: 200px;
+  height: 250px;
+}
+.member {
+  margin-top: 10px;
+  height: 400px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.list-movie {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.list-1,
+.list-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list-2 {
+  margin-top: 20px;
+}
+
+.ten-1 a {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.movies-1,
+.movies-2 {
+  width: 300px;
+  height: 500px;
+  margin-right: 20px;
+}
+/* Single movie */
+.main-content-2 {
+  width: 1100px;
+  height: 1400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.movie-detail {
+  margin-left: 20px;
+}
+
+.poster-1 {
+  margin-right: 10px;
+}
+.movie-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.movie-summary {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.movie-meta {
+  padding-bottom: 10px;
+}
+.entry-content h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.movie-meta li {
+  text-decoration: none;
+}
+/* About page */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fdfdfd;
+  background: url(/img/About.jpg) no-repeat left;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 100px;
+  margin-left: 100px;
+}
+.inner-container {
+  width: 40%;
+  align-items: center;
+  background-color: #fdfdfd;
+  /* padding: 100px; */
+  padding-bottom: 10px;
+}
+.list-movie {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.list-1,
+.list-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list-2 {
+  margin-top: 20px;
+}
+.ten-1 {
+  color: black;
+}
+.movie-1 {
+  margin: auto;
+  margin-left: 50px;
+}
+
+
+/* Hover Menu bar */
+.cool-link::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
